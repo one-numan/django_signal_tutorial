@@ -1,0 +1,5 @@
+2025-03-14 23:49:53.443 | INFO     | home.signals:car_post_save:22 - New car added: Maruti Suzuki Wagon-R
+2025-03-14 23:52:34.544 | INFO     | home.signals:car_post_save:22 - New car added: Mercedes Benz
+2025-03-14 23:52:34.545 | WARNING  | home.signals:car_post_save:23 - Here is an Error
+2025-03-14 23:52:34.545 | DEBUG    | home.signals:car_post_save:24 - Error Handle
+2025-03-15 00:16:08.673 | INFO     | home.signals:car_post_save:22 - New car added: Mercedes Benz
