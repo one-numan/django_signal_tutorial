@@ -3,3 +3,6 @@
 2025-03-14 23:52:34.545 | WARNING  | home.signals:car_post_save:23 - Here is an Error
 2025-03-14 23:52:34.545 | DEBUG    | home.signals:car_post_save:24 - Error Handle
 2025-03-15 00:16:08.673 | INFO     | home.signals:car_post_save:22 - New car added: Mercedes Benz
+2025-03-15 12:04:43.567 | INFO     | home.signals:car_post_save:26 - New car added: Honda
+2025-03-15 12:13:26.482 | INFO     | home.signals:car_post_save:26 - New car added: Jaguar
+2025-03-15 12:23:48.955 | INFO     | home.signals:car_post_save:26 - New car added: Kia
