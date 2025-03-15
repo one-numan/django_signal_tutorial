@@ -1,4 +1,4 @@
-from django.dispatch import receiver
+from django.dispatch import receiver,Signal
 from django.db.models.signals import post_save,pre_save,pre_delete,post_delete
 from django.core.exceptions  import PermissionDenied
 
@@ -50,3 +50,15 @@ def car_post_delete(sender,instance,**kwargs):
 
 
 
+####  Custom Built Signals  #
+
+notification = Signal() # Creating a Signals
+
+
+@receiver(notification) # Defining a Signals
+# Signal execute when Index_page() is run
+def show_notification(sender,**kwargs):
+    print("-------------")
+    print("Notification")
+    print(sender)
+    print(F"{kwargs}")
